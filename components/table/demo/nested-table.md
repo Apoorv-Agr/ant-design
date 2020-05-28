@@ -27,7 +27,7 @@ const menu = (
 function NestedTable() {
   const expandedRowRender = () => {
     const columns = [
-      { title: 'Date', dataIndex: 'date', key: 'date' },
+      { title: 'Date', dataIndex: 'date', key: 'date',fixed:true },
       { title: 'Name', dataIndex: 'name', key: 'name' },
       {
         title: 'Status',
@@ -71,7 +71,7 @@ function NestedTable() {
   };
 
   const columns = [
-    { title: 'Name', dataIndex: 'name', key: 'name' },
+    { title: 'Name', dataIndex: 'name', key: 'name',fixed:true },
     { title: 'Platform', dataIndex: 'platform', key: 'platform' },
     { title: 'Version', dataIndex: 'version', key: 'version' },
     { title: 'Upgraded', dataIndex: 'upgradeNum', key: 'upgradeNum' },
